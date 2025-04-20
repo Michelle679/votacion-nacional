@@ -1,0 +1,32 @@
+# Ignorar archivos de sistema en Windows
+Thumbs.db
+Desktop.ini
+ntuser.dat*
+NTUSER.DAT*
+*.log
+
+# Ignorar directorios comunes del sistema
+AppData/
+OneDrive/
+Desktop/
+Documents/
+Downloads/
+Favorites/
+Links/
+Music/
+Pictures/
+Saved Games/
+Searches/
+Videos/
+
+# Ignorar archivos específicos de IDEs
+.vscode/
+.idea/
+*.iml
+
+# Archivos específicos de VirtualBox
+.VirtualBox/
+VirtualBox VMs/
+
+# Archivos de configuración de red
+*.bak
