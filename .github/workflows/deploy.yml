@@ -23,6 +23,9 @@ jobs:
 
       - name: Build app
         run: npm run build
+      - name: Show build folder
+        run: ls -R build
+
 
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v2
